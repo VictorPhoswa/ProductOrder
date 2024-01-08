@@ -16,9 +16,11 @@
 # Step 3
 -Delete the Migrations folder
 
--Create new migration: Add-Migration Initial
+-Open Package Manager Console apply the following commands
 
--Create a new database: Update database
+-Create new migration:  Add-Migration Initial
+
+-Create a new database: Update-database
 
 # NB: The is data that is used to initialize the project, after creating the database the should be data seeded into it.
 
