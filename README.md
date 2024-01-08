@@ -22,6 +22,8 @@
 
 -Create a new database: Update-database
 
+# NB: Make sure you are working on a clean database, so that there is no conflict between tables.
+
 # NB: The is data that is used to initialize the project, after creating the database the should be data seeded into it.
 
 # Step 4
