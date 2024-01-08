@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\Images\Books.jpg" />
+    <None Include="wwwroot\css\Images\galaxy04.file" />
+    <None Include="wwwroot\css\Images\Hisense.file" />
+    <None Include="wwwroot\css\Images\HisensePhone.file" />
+    <None Include="wwwroot\css\Images\i12ear.file" />
+    <None Include="wwwroot\css\Images\JBL.file" />
+    <None Include="wwwroot\css\Images\LG.file" />
+    <None Include="wwwroot\css\Images\modi.jpg" />
+    <None Include="wwwroot\css\Images\Polariod.jpg" />
+    <None Include="wwwroot\css\Images\Pritt.webp" />
+    <None Include="wwwroot\css\Images\samsung55.webp" />
+    <None Include="wwwroot\css\Images\Toshiba32.file" />
+    <None Include="wwwroot\css\Images\Typek.jpg" />
+    <None Include="wwwroot\css\Images\Volkano.file" />
+    <None Include="wwwroot\css\Images\VolkanoHead.file" />
+    <None Include="wwwroot\css\Images\Xombi.file" />
+  </ItemGroup>
+
+</Project>
